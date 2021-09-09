@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Nac_2_1</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="init_tittle">Techs Infos</string>
+    <string name="home_tittle">Techs</string>
+    <string name="placeholde_input">Insira o id da tech desejada</string>
+    <string name="btn_search">Buscar</string>
+</resources>
