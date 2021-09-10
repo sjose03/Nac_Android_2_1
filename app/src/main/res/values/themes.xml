@@ -2,8 +2,8 @@
     <!-- Base application theme. -->
     <style name="Theme.Nac_2_1" parent="Theme.MaterialComponents.DayNight.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/bdazzle_blue</item>
-        <item name="colorPrimaryVariant">@color/rich_black</item>
+        <item name="colorPrimary">@color/yellow_gif</item>
+        <item name="colorPrimaryVariant">@color/purple_gif</item>
         <item name="colorOnPrimary">@color/white</item>∑
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>

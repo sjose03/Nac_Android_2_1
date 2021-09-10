@@ -7,41 +7,43 @@
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
 
         <com.airbnb.lottie.LottieAnimationView
             android:id="@+id/lottieAnimationView2"
-            android:layout_width="382dp"
-            android:layout_height="360dp"
+            android:layout_width="413dp"
+            android:layout_height="468dp"
             android:elevation="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.551"
+            app:layout_constraintHorizontal_bias="0.513"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.646"
             app:lottie_autoPlay="true"
-            app:lottie_loop="true"
-
             app:lottie_rawRes="@raw/techs" />
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="285dp"
-            android:layout_height="91dp"
-            android:alpha="0.8"
+            android:layout_width="277dp"
+            android:layout_height="55dp"
+            android:alpha="1"
             android:fontFamily="@font/roboto_medium"
+            android:shadowColor="#40000000"
+            android:shadowDy="4"
+            android:shadowDx="4"
+            android:shadowRadius="4"
             android:text="@string/init_tittle"
             android:textAlignment="center"
-            android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#000000"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="#FFFFFF"
             android:textSize="48sp"
             android:translationY="@dimen/cardview_compat_inset_shadow"
             app:layout_constraintBottom_toTopOf="@+id/lottieAnimationView2"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.45"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.661" />
+            app:layout_constraintVertical_bias="0.471" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

@@ -27,7 +27,7 @@ class InitFragment : Fragment() {
         Handler().postDelayed({
             val action =  InitFragmentDirections.actionInitFragmentToHomeFragment()
             findNavController().navigate(action)
-        }, 5500)
+        }, 5300)
 
 
     }

@@ -5,4 +5,5 @@
     <string name="home_tittle">Techs</string>
     <string name="placeholde_input">Insira o id da tech desejada</string>
     <string name="btn_search">Buscar</string>
+    <string name="preference_tech">Favoritar</string>
 </resources>
